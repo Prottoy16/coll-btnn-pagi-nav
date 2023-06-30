@@ -4,36 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>collapse and btn</title>
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container">
+    <div class="container bg-primary p-3 rounded">
 
     
     <header>
+        <div class="row">
+            <div class="col-lg-7">
+                <h2 class="text-center text-white">Compete with Prottoy</h2>
+            </div>
+            <div class="col-lg-5">
+                
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item"><a class="text-white nav-link my-style-nav m-2 rounded" href="mailto:prottoybiswas20@gmail.com">mail</a></li>
+                        <li class="nav-item"><a class="text-white nav-link my-style-nav m-2 rounded" href="">info</a></li>
+                        <li class="nav-item"><a class="text-white nav-link my-style-nav m-2 rounded" href="">contact</a></li>
+                     </ul>
+                
+                
+            </div>
+        </div>
           
     </header>
 
-
+<hr>
     <main>
         <div class="row">
 
        
-        <div class="col-lg-5">
+        <div class="col-5">
             <h2>Personal information</h2>
         </div> 
-        <div class="col-lg-7">
+        <div class="col-7">
             <h2>Lecturer of information and communication technology</h2>
             <h5>3.12.12-5.12.20</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dignissimos impedit iure vel ad, quibusdam ex minima atque dolorum magni quidem eveniet recusandae enim. Recusandae excepturi eveniet modi assumenda tempora. <a href="#demo" data-bs-toggle="collapse">learn more</a> </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dignissimos impedit iure vel ad, quibusdam ex minima atque dolorum magni quidem eveniet recusandae enim. Recusandae excepturi eveniet modi assumenda tempora. <a class="text-white" href="#demo" data-bs-toggle="collapse">learn more</a> </p>
             <div id="demo" class="collapse">
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At rem magni quis tempora consectetur animi? Cum aliquid provident delectus cumque.</p>
+                <div class="add-link">
+                    <a class="btn btn-outline-dark" href="mailto:prottoybiswas16@gmail.com">mail</a>
+                    <a class="btn btn-outline-dark" href="">about</a>
+                    <a class="btn btn-outline-dark" href="">contact</a>
+                </div>
             </div>
-            <div class="add-link">
-                <a class="btn btn-outline-dark" href="">home</a>
-                <a class="btn btn-outline-dark" href="">about</a>
-                <a class="btn btn-outline-dark" href="">contact</a>
-            </div>
+           
         </div>
     </div>
     </main>
